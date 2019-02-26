@@ -1,5 +1,5 @@
 var dl = new ActiveXObject("msxml2.XMLHTTP");
-dl.open("GET", "https://github.com/aria2/aria2/releases/download/release-1.24.0/aria2-1.24.0-win-64bit-build1.zip", 0)
+dl.open("GET", "https://github.com/aria2/aria2/releases/download/release-1.34.0/aria2-1.34.0-win-64bit-build1.zip", 0)
 dl.send()
 WScript.Echo("Downloading");
 var write = new ActiveXObject("ADODB.stream");
